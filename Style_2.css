@@ -1,0 +1,52 @@
+/*CSS3*/
+@charset "UTF-8";
+body
+{
+    
+    background: linear-gradient(147deg, #FFE53B 0%, #FF2525 100%);
+    background-attachment: fixed; /* this stops the gradient from repeating itself */
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper
+{
+    width: 1280px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#left-column
+{
+    float: left;
+    width: 300px;
+    height: 600px;
+}
+#right-column
+{
+    float: right;
+    width: 300px;
+    height: 600px;
+}
+.box
+{
+    height: 150px;
+    width: 150px;
+    background-color: tan;
+    margin: 15px;
+    opacity:.5;
+}
+h1,h2,h3,h4,h5,h6,p,li
+{
+    margin-left:15px;
+}
+#footer
+{
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
